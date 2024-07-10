@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 50px 150px; */
+     /* margin: 50px 150px; */
 }
 
 .name{
@@ -23,7 +23,9 @@ nav ul li{
 }
 
 .head{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
+    height: 652px;
+    width: 1440px;i
     
 }    
 
@@ -51,6 +53,7 @@ nav ul li{
 .Banner-description{
     font-weight: 400;
     text-align: center;
+    font-size: 18px;
   }
 
   .btn-c{
@@ -63,12 +66,7 @@ nav ul li{
     position: absolute;    
         
   }
-  .Inspiration{
-    text-align: center;
-  }
-  .start{
-    text-align: center;
-  }
+   
   .Target-head{
     text-align: center;
   }
@@ -98,29 +96,27 @@ nav ul li{
   .next-Target{
     text-align: center
   }
-  .next-code{
-    gap: 24px;
-  }
-  
-
-  .monogo{
+  .t1{
     display: flex;
     width: 1140px;
     padding: 3px;
+    box-sizing: border-box;
+    border-radius: 16;
+    box-shadow: #a3a2a2;
    
   }
-  .react{
+  .t3{
     display: flex;
     width: 1140px;
   }
-  .nodejs{
+  .t2{
     display: flex;
     width: 1140px;
   }
   .Support{      
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     width: 1140px;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     background-attachment: fixed ;
         
   }
@@ -129,42 +125,76 @@ nav ul li{
   }
   .last{
     display:flex;
-    background-color: rgba(255, 221, 0, 0.05);
-    padding: 32px;
-    gap: 700px ;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 16px;
+    gap: 900px ;
     text-align: center;
   
   }
    
   .my-web{
     background-color: rgba(13,19,33, 0.02);
-    padding: 97px 80px;
+    padding: 80px;
+    width: 1140px ;
+    height: 1393px;
+    border-radius: 16;
+  }
+
+   
+  .start{
+    text-align: center;
   }
   .one{
     display:flex;
   }
   .line1{
     background-color: #FFFFFF ;   
-    padding: 48px , 48px ;
+    padding: 48px;
     border: #FFFFFF;
-    border-radius: 16;
-    
+    border-radius: 16px;    
     }
 
-    .line2{
-      background-color: #FFFFFF ;
-      border-radius: 16;
-      padding: 48px , 48px;
-      gap: 32px;
-      }
+     .line2{
+      padding: 48px ; 
+      border-radius: 16px;     
+     }
+      
 
       .line3{
         background-color: #FFFFFF ;
-        border-radius: 16;
-        padding: 58px , 48px ;
-        gap: 32px;
+        padding: 48px;
+        border-radius: 16px;
+        }
+
+        .Inspiration{
+          background-color: #FFFFFF ; 
+          padding: 80px;
+          width: 1140px ;
+          height: 775px;
+          border-radius: 16;
+          text-align: center;
+        }
+        .targets{
+          width: 1140px;
+          height: 1407px;
+          text-align: center;
+        }
+
+        .btn-L{
+          border: none;
+          /* outline: none; */
+           background: none;
+           
 
         }
+        /* .YouTube{
+          padding: 32px;
+          border: #e2dada;
+          border-radius: 16;
+        } */
+       
+
+        
     
     
     
