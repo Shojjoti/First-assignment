@@ -27,7 +27,6 @@ nav ul li{
     
 }    
 
-
 .button-color{
     color: rgb(13, 19, 33) ;
     border-radius: 8px;    
@@ -61,10 +60,48 @@ nav ul li{
     padding:  21px 24px;
     border-radius: 8px;
     margin: 0;
-    position: absolute;
-    
-     
-    
+    position: absolute;    
+        
   }
+  .Inspiration{
+    text-align: center;
+  }
+  .start{
+    text-align: center;
+  }
+  .Target-head{
+    text-align: center;
+  }
+  .terget-descreption{
+    text-align: center;
 
-    
+  }
+  .three-language{
+    display: flex;
+    gap: 24px;
+  }
+  .language01{
+    padding: 40px;
+    background-color: rgba(255, 75, 30, 0.08);    
+    width: 364px;
+  }
+  .language02{
+    padding: 40px;
+    width: 364px;
+    background-color: rgba(0, 77, 232, 0.05);
+  }
+  .language03{
+    padding: 40px;
+    width: 364px;
+    background-color: rgba(255, 221, 0, 0.05);
+  }
+  .next-Target{
+    text-align: center
+  }
+  /* .one{
+   display: flex;
+  }
+  .two{
+   
+    display: flex;
+  }  */
