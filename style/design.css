@@ -98,10 +98,46 @@ nav ul li{
   .next-Target{
     text-align: center
   }
-  /* .one{
-   display: flex;
+  .next-code{
+    gap: 24px;
   }
-  .two{
-   
+  
+
+  .monogo{
     display: flex;
-  }  */
+    width: 1140px;
+    padding: 3px;
+   
+  }
+  .react{
+    display: flex;
+    width: 1140px;
+  }
+  .nodejs{
+    display: flex;
+    width: 1140px;
+  }
+  .Support{      
+    background-image: url(/assets/handshake.jpg);
+    width: 1140px;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+        
+  }
+  .support-section{
+    text-align: center;
+  }
+  .last{
+    display:flex;
+    background-color: rgba(255, 221, 0, 0.05);
+    padding: 32px;
+    gap: 700px ;
+    text-align: center;
+  
+  }
+
+     
+
+      
+
+  
