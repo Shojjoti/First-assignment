@@ -135,9 +135,39 @@ nav ul li{
     text-align: center;
   
   }
+   
+  .my-web{
+    background-color: rgba(13,19,33, 0.02);
+    padding: 97px 80px;
+  }
+  .one{
+    display:flex;
+  }
+  .line1{
+    background-color: #FFFFFF ;   
+    padding: 48px , 48px ;
+    border: #FFFFFF;
+    border-radius: 16;
+    
+    }
 
-     
+    .line2{
+      background-color: #FFFFFF ;
+      border-radius: 16;
+      padding: 48px , 48px;
+      gap: 32px;
+      }
 
+      .line3{
+        background-color: #FFFFFF ;
+        border-radius: 16;
+        padding: 58px , 48px ;
+        gap: 32px;
+
+        }
+    
+    
+    
       
 
   
